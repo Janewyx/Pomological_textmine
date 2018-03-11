@@ -28,8 +28,8 @@ functions_df <- arrange(functions_df, desc(count))
 ## outputting and reading in all dataframes, with each representing a particular topic. 
 ## manual word picking was done in the .csv to take out meaningless terms including "I", "and" etc. 
 # write.csv(functions_df, "functions.csv", row.names = FALSE)
-functions_df <- read.csv("functions.csv")
-improve_df <- read.csv("improve.csv")
+functions_df <- read.csv("../functions.csv")
+improve_df <- read.csv("../improve.csv")
 transp_df <- read.csv("transparency.csv")
 
 ## combining dataframes by common terms among the three dataframes, and doing a total count
@@ -72,8 +72,8 @@ plot(stackplot)
 
 ## outputting plots on a watercolour paper tile
  paint_pomological(dotplot, width = 800, height = 550) %>% 
-   magick::image_write("transparency.tiff")
+   magick::image_write("transparency.png")
              
  paint_pomological(stackplot, width = 800, height = 550) %>% 
-   magick::image_write("freq_terms.tiff")
+   magick::image_write("freq_terms.png")
 

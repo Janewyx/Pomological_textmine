@@ -1,4 +1,4 @@
-# Pomological_textmine
+# Text Processing and Visualisation
 This is a fun text processing attempt for a geoinformatics seminar class blog post on geospatial projects in governments. 
 
 ### Inspiration

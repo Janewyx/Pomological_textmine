@@ -28,9 +28,9 @@ functions_df <- arrange(functions_df, desc(count))
 ## outputting and reading in all dataframes, with each representing a particular topic. 
 ## manual word picking was done in the .csv to take out meaningless terms including "I", "and" etc. 
 # write.csv(functions_df, "functions.csv", row.names = FALSE)
-functions_df <- read.csv("../functions.csv")
-improve_df <- read.csv("../improve.csv")
-transp_df <- read.csv("transparency.csv")
+functions_df <- read.csv("data/functions.csv")
+improve_df <- read.csv("data/improve.csv")
+transp_df <- read.csv("data/transparency.csv")
 
 ## combining dataframes by common terms among the three dataframes, and doing a total count
 combined_2 <- inner_join(improve_df, transp_df, by = "word")

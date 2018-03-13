@@ -2,7 +2,7 @@
 This is a fun text processing attempt for a geoinformatics seminar class blog post on geospatial projects in governments. 
 
 ### Inspiration
-The graphic theme of the output images is inspired by Garrick Aden-Buie's [ggpomoligical repository](https://github.com/gadenbuie/ggpomological). 
+The graphic theme of the output images is inspired by Garrick Aden-Buie's [ggpomological repository](https://github.com/gadenbuie/ggpomological). 
 I learnt about text processing techniques from [this blog](http://programminghistorian.github.io/ph-submissions/lessons/published/basic-text-processing-in-r).
 
 ### About the seminar
